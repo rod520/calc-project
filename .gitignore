@@ -1,0 +1,10 @@
+*.bak
+*.tmp
+*.kicad_prl
+sym-lib-table-bak
+fp-lib-table-bak
+
+#OS/ editor
+.DS_Store
+Thubs.db
+__pycache__/
