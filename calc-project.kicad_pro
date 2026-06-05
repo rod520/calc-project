@@ -648,13 +648,13 @@
         "uuid": "ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C5,#PWR26-27,R4",
     "variants": []
   },
   "sheets": [
     [
       "ce2387f6-4e20-4bb3-a78e-7b86d34e4f64",
-      "button_matrix"
+      "calc-project"
     ]
   ],
   "text_variables": {},

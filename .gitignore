@@ -9,3 +9,4 @@ fp-lib-table-bak
 .DS_Store
 Thubs.db
 __pycache__/
+*.py
