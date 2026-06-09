@@ -3384,7 +3384,7 @@
 			)
 		)
 	)
-	(global_label "Data{slash}Comm select"
+	(global_label "DC_SELECT"
 		(shape input)
 		(at 241.3 72.39 0)
 		(fields_autoplaced yes)
@@ -3396,7 +3396,7 @@
 		)
 		(uuid "0e1bde71-d9e0-4e82-a6ca-ff1b49daa779")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 262.3674 72.39 0)
+			(at 254.566 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3456,7 @@
 			)
 		)
 	)
-	(global_label "DISPLAY_DATA_IN"
+	(global_label "SDI(MOSI)"
 		(shape input)
 		(at 48.26 45.72 0)
 		(fields_autoplaced yes)
@@ -3468,7 +3468,7 @@
 		)
 		(uuid "219e9e6d-7af0-4495-920b-81e0c7df5281")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.0901 45.72 0)
+			(at 60.6191 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3480,7 @@
 			)
 		)
 	)
-	(global_label "Chip select"
+	(global_label "CS"
 		(shape input)
 		(at 45.72 38.1 0)
 		(fields_autoplaced yes)
@@ -3492,7 +3492,7 @@
 		)
 		(uuid "30327f7f-6184-4e30-869d-2499c682245c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.5304 38.1 0)
+			(at 51.1847 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3552,7 @@
 			)
 		)
 	)
-	(global_label "Write strobe sig"
+	(global_label "SCK"
 		(shape input)
 		(at 48.26 48.26 0)
 		(fields_autoplaced yes)
@@ -3564,7 +3564,7 @@
 		)
 		(uuid "470e126e-500b-4432-b1ab-992c5387f6c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.5456 48.26 0)
+			(at 54.9947 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3744,6 +3744,30 @@
 			)
 		)
 	)
+	(global_label "CS"
+		(shape input)
+		(at 256.54 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c6b735b-5c71-48f1-a35d-4cb0452e7abe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.0047 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "col 1"
 		(shape input)
 		(at 205.74 67.31 180)
@@ -3768,7 +3792,7 @@
 			)
 		)
 	)
-	(global_label "Write strobe sig"
+	(global_label "SCK"
 		(shape input)
 		(at 246.38 62.23 0)
 		(fields_autoplaced yes)
@@ -3780,7 +3804,7 @@
 		)
 		(uuid "8a5babb5-d5a7-4ab5-bd75-9c288c1a4d20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.6656 62.23 0)
+			(at 253.1147 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +3816,7 @@
 			)
 		)
 	)
-	(global_label "Data{slash}Comm select"
+	(global_label "DC_SELECT"
 		(shape input)
 		(at 45.72 43.18 0)
 		(fields_autoplaced yes)
@@ -3804,7 +3828,7 @@
 		)
 		(uuid "96e8d37b-108b-40dd-b109-7dbeb8f04d3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.7874 43.18 0)
+			(at 58.986 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3861,30 +3885,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "Chip select"
-		(shape input)
-		(at 256.54 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab4e634f-9eb7-441e-840a-ea1e853ef547")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.3504 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4056,7 +4056,7 @@
 			)
 		)
 	)
-	(global_label "DISPLAY_DATA_IN"
+	(global_label "SDI(MOSI)"
 		(shape input)
 		(at 254 58.42 0)
 		(fields_autoplaced yes)
@@ -4068,7 +4068,7 @@
 		)
 		(uuid "cd09a1e7-b667-4c9a-9fcc-d65fccd8eb7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.8301 58.42 0)
+			(at 266.3591 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
