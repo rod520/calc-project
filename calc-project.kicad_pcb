@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -147,6 +146,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0f73f1be-7a57-4676-af12-12ec65e11589")
 			(effects
 				(font
@@ -184,6 +184,12 @@
 		(path "/ff88799d-bbd4-4791-bc15-13ef0a7139f3")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -507,6 +513,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "454ad6cd-8b44-44bd-864f-eb9673fdd35c")
 			(effects
 				(font
@@ -544,6 +551,12 @@
 		(path "/b62c74e6-a593-415f-b05a-10557efa0eb9")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -867,6 +880,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "777d8c24-7af5-47f2-8b4e-25472ba27b60")
 			(effects
 				(font
@@ -904,6 +918,12 @@
 		(path "/ade44696-28ed-44c4-8914-4cc6bcfc1725")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1227,6 +1247,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "63c6e833-959a-4c96-ab8f-210af361cccb")
 			(effects
 				(font
@@ -1264,6 +1285,12 @@
 		(path "/05c3669d-a182-4658-b7d8-7fb7f82acc01")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1587,6 +1614,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "13bd1668-4f5c-4963-8d07-915d0506b342")
 			(effects
 				(font
@@ -1624,6 +1652,12 @@
 		(path "/8be5ec8f-c9e1-4cd5-9b04-435a339b7230")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1947,6 +1981,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c9358003-6270-40c7-af25-0895bd4b5059")
 			(effects
 				(font
@@ -1984,6 +2019,12 @@
 		(path "/f7853b00-1372-4221-8f11-ac04c490a7ea")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2307,6 +2348,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "37d8bfe6-fe57-450e-9ae6-f6895a7f472d")
 			(effects
 				(font
@@ -2344,6 +2386,12 @@
 		(path "/f73b1259-ff76-477c-b4f7-e7f7e6b8ea90")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2667,6 +2715,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "129cfe78-3af6-4c76-8c05-82da94b2da22")
 			(effects
 				(font
@@ -2704,6 +2753,12 @@
 		(path "/43f8e05d-a90c-4a38-ab1a-a0f3c1697d83")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3027,6 +3082,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f4c16103-7f84-481c-93e2-5a1a2b1c82ac")
 			(effects
 				(font
@@ -3064,6 +3120,12 @@
 		(path "/880f01af-715d-42af-9ec0-d622f1bdc0f2")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3387,6 +3449,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bead4e21-9c31-4ba7-ae23-a3e3395fb040")
 			(effects
 				(font
@@ -3424,6 +3487,12 @@
 		(path "/fdcecda0-555e-4f08-b255-097a6cc7793c")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3747,6 +3816,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "267585f3-642f-40da-9d5a-f83cd7c6ac5b")
 			(effects
 				(font
@@ -3784,6 +3854,12 @@
 		(path "/d2787a38-4a87-4a0b-ac52-e6bb5c400969")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4107,6 +4183,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e1c7ada6-0bbd-4728-b079-1e1a822da898")
 			(effects
 				(font
@@ -4144,6 +4221,12 @@
 		(path "/1de493d2-bc74-4a13-b7ca-e1c5e351acca")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4467,6 +4550,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b70db573-453c-45aa-87eb-013f1b721d9c")
 			(effects
 				(font
@@ -4504,6 +4588,12 @@
 		(path "/d93ede3d-37fc-4cb5-b624-10ad094cdf22")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4827,6 +4917,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a041b1de-4389-4af6-93c0-4eb4eb064426")
 			(effects
 				(font
@@ -4864,6 +4955,12 @@
 		(path "/afab5532-7d52-46a8-8981-9d537a3fcc3e")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5187,6 +5284,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "deb0aaec-49d3-495b-8c74-b944d10c7dea")
 			(effects
 				(font
@@ -5224,6 +5322,12 @@
 		(path "/8f145c6d-81a7-4492-aa86-452c058aecf8")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5547,6 +5651,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b0b76e39-b5fa-4e76-887b-5dc2982e47ea")
 			(effects
 				(font
@@ -5584,6 +5689,12 @@
 		(path "/b42046dd-1dc2-498e-980d-0c61a8d898c5")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5907,6 +6018,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e8b3056d-6a22-4402-83e7-94ba6c282a0a")
 			(effects
 				(font
@@ -5944,6 +6056,12 @@
 		(path "/c9ac074f-d32a-4a08-962d-99db40ed3807")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6267,6 +6385,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "419f1528-f6d1-4eff-b838-99a030f88f26")
 			(effects
 				(font
@@ -6304,6 +6423,12 @@
 		(path "/6aa2eaec-e341-4b78-b6ca-70b03d5734e5")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6627,6 +6752,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 85.32 -2.37 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d657e227-b32f-425b-a900-2b9d44655bac")
 			(effects
 				(font
@@ -6664,6 +6790,12 @@
 		(path "/43ebf13d-de29-4c9b-96ea-1ff9cc900c41")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6987,6 +7119,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c5bca379-e9ca-4349-bb74-430b7643a928")
 			(effects
 				(font
@@ -7024,6 +7157,12 @@
 		(path "/2cdb6019-e9e4-4118-a792-f2c262f96337")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7347,6 +7486,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2f08e744-2816-428b-9a70-8f38b98cfe66")
 			(effects
 				(font
@@ -7384,6 +7524,12 @@
 		(path "/d99a77bb-a1b9-4fc2-b105-603eba177736")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7695,6 +7841,7 @@
 			(at -1 1.27 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ff791507-7594-4aa6-b889-da27d543d406")
 			(effects
 				(font
@@ -7942,6 +8089,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d470b7d4-1b1f-46d2-9809-177e9d056d42")
 			(effects
 				(font
@@ -7979,6 +8127,12 @@
 		(path "/0aa743a1-cc40-40e4-851d-66fedda4ca1b")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8302,6 +8456,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c1c20f13-d7ca-4666-9873-9c25ff210f02")
 			(effects
 				(font
@@ -8339,6 +8494,12 @@
 		(path "/7ee3f070-a35f-461a-ab83-2a824e15e727")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8662,6 +8823,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1d11d7fe-c963-498c-b8e1-049a56f5550b")
 			(effects
 				(font
@@ -8699,6 +8861,12 @@
 		(path "/17e55d94-c463-4697-9d35-8706323e54c8")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9022,6 +9190,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cd8cb321-ded5-4294-9942-77cebeeda706")
 			(effects
 				(font
@@ -9059,6 +9228,12 @@
 		(path "/d075e999-5586-4a87-b500-8da531ee80ad")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9382,6 +9557,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "193666e5-fd30-44cb-a96c-25f7b2f690d5")
 			(effects
 				(font
@@ -9419,6 +9595,12 @@
 		(path "/58205e95-bb6e-4eb5-adc6-b4bdc25e9382")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9742,6 +9924,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "22c7f686-1e67-469e-b2f1-16cb3f48d166")
 			(effects
 				(font
@@ -9779,6 +9962,12 @@
 		(path "/2ff6ec12-1e66-47e6-b62a-bf1414ebbe55")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10102,6 +10291,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b9e1c1e1-4e28-4ae0-857c-6e3a95fa84f3")
 			(effects
 				(font
@@ -10139,6 +10329,12 @@
 		(path "/4df7a127-ff1f-4df9-8f54-c2ea34d5b753")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10462,6 +10658,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e61236e1-e573-4d5a-b581-7f61dffcb26e")
 			(effects
 				(font
@@ -10499,6 +10696,12 @@
 		(path "/04dfebad-f74c-4dfc-a201-a3239576fffb")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10822,6 +11025,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f5524ee6-7476-49ae-a7f3-6e47aa8f4212")
 			(effects
 				(font
@@ -10859,6 +11063,12 @@
 		(path "/b304606d-6b14-4216-8e54-30002e959b65")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11182,6 +11392,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b0e9c5a8-f148-49ba-866f-ea1c9bf5bc93")
 			(effects
 				(font
@@ -11219,6 +11430,12 @@
 		(path "/e9bd153b-60c5-4018-bfbd-5fa652e27950")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11542,6 +11759,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "278a93d5-0947-4aa5-8471-4949d874127e")
 			(effects
 				(font
@@ -11579,6 +11797,12 @@
 		(path "/882f9512-851b-4149-8982-49a2213fbcf8")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11902,6 +12126,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "36cf000d-0fd0-446d-bf48-f89ff8b21053")
 			(effects
 				(font
@@ -11939,6 +12164,12 @@
 		(path "/a288dab5-d4fa-487c-b4e0-d1f2ea1cbfb0")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12262,6 +12493,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "793d06f9-f3f3-45dc-a6b1-a5f56f215412")
 			(effects
 				(font
@@ -12299,6 +12531,12 @@
 		(path "/029e200f-dcbc-4b48-8879-d5ca86f33c7c")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12622,6 +12860,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "93a40e26-984e-4f64-8aa8-1e5ab0ff4d54")
 			(effects
 				(font
@@ -12659,6 +12898,12 @@
 		(path "/07536315-071f-4a10-80c7-7e708de6b0af")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12982,6 +13227,7 @@
 		(property "Value" "SW_Push_45deg"
 			(at 0.5 4.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "719e07d0-db80-47be-93ff-7b3b93505a39")
 			(effects
 				(font
@@ -13019,6 +13265,12 @@
 		(path "/b1bf2af5-d03f-44d9-9584-bc117b5b1357")
 		(sheetname "/")
 		(sheetfile "calc-project.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13331,7 +13583,7 @@
 		(property "Reference" "J1"
 			(at 0 27 90)
 			(layer "B.SilkS")
-			(uuid "126659a2-bdf3-4463-8e32-990b7703ae52")
+			(uuid "1a59aa95-876f-42f9-a69c-7290b2d1a329")
 			(effects
 				(font
 					(size 1 1)
@@ -13343,7 +13595,8 @@
 		(property "Value" "PinSocket_1x20_Right"
 			(at 0 -27 90)
 			(layer "B.Fab")
-			(uuid "f0865503-cd6f-4c81-899c-b53310822a1b")
+			(hide yes)
+			(uuid "52505a02-6715-4052-b6f9-761510da4039")
 			(effects
 				(font
 					(size 1 1)
@@ -13356,7 +13609,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9ff64d03-baec-4638-b08b-412b98cb1850")
+			(uuid "8752c5ed-8ce0-4c17-96a7-256e37d50325")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13368,7 +13621,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e572a071-680e-43c6-99e9-435b5aaa595f")
+			(uuid "fc2e4082-027d-4ae6-a775-b5cca27d6da8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14557,7 +14810,7 @@
 			(at 0 27 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "616a0890-501f-4e79-80ff-301cc025aef5")
+			(uuid "20e4ff3e-beb6-47c8-8ca1-97d34b5d5da7")
 			(effects
 				(font
 					(size 1 1)
@@ -14569,7 +14822,8 @@
 		(property "Value" "PinSocket_1x20_Left"
 			(at 0 -27 90)
 			(layer "B.Fab")
-			(uuid "a6ae431b-6261-4445-9ba5-1f0a6fc09a61")
+			(hide yes)
+			(uuid "4647d692-c115-4237-844b-4db1b01f94ff")
 			(effects
 				(font
 					(size 1 1)
@@ -14582,7 +14836,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5dbec4eb-0e42-45f9-860e-9c0254d14bf7")
+			(uuid "1d659a1e-8732-43b8-8427-5aa5535cef43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14594,7 +14848,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8c2d986d-ccc0-4dde-9597-7e4e1a9bd0d4")
+			(uuid "c285ab97-25ed-431c-9792-0805472a1fbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,16 +15946,16 @@
 			(at -1.65 -6.35 90)
 			(size 1.9 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row 4")
+			(net "unconnected-(J2-GND-Pad13)")
 			(pinfunction "GND_13")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5c817b42-092e-4cb4-9520-cdb33ae207e7")
 		)
 		(pad "14" smd rect
 			(at 1.65 -8.89 90)
 			(size 1.9 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "row 5")
+			(net "row 4")
 			(pinfunction "GP10_14")
 			(pintype "passive")
 			(uuid "84f87c78-d206-424d-b4e6-6ddb85d433d8")
@@ -15710,9 +15964,9 @@
 			(at -1.65 -11.43 90)
 			(size 1.9 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(J2-GP11-Pad15)")
+			(net "row 5")
 			(pinfunction "GP11_15")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "2d4b4c8e-4342-4df0-8af2-8e6774fb0811")
 		)
 		(pad "16" smd rect
@@ -15774,18 +16028,7 @@
 		)
 	)
 	(gr_rect
-		(start 50.55 9.25)
-		(end 105.59 98.55)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "56e79bd1-fc13-4cdd-96c3-0538476daa18")
-	)
-	(gr_rect
-		(start 50.55 15.05)
+		(start 50.55 92.7246)
 		(end 105.59 92.75)
 		(stroke
 			(width 0.1)
@@ -15794,6 +16037,17 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "bb052473-93c9-4a03-8b5d-4e3d7db1078a")
+	)
+	(gr_rect
+		(start 50.55 92.75)
+		(end 105.59 98.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "56e79bd1-fc13-4cdd-96c3-0538476daa18")
 	)
 	(gr_rect
 		(start 30 90)
@@ -16047,44 +16301,36 @@
 		(uuid "e50e0fc6-e6bc-4fa0-80bc-bb81890f0955")
 	)
 	(segment
+		(start 93.8 124.92)
+		(end 93.58 124.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "row 5")
+		(uuid "18e87ef2-2f7d-4879-b874-f2656b424f18")
+	)
+	(segment
+		(start 93.8 179.7)
+		(end 93.8 124.92)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "row 5")
+		(uuid "4f16467f-3d98-472d-824e-626fcd41ff3b")
+	)
+	(segment
 		(start 91.25 182.25)
 		(end 93.8 179.7)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "row 5")
-		(uuid "05c71d26-f61f-4abb-a2b5-5030d3e48b95")
-	)
-	(segment
-		(start 93.8 179.7)
-		(end 93.8 123.23)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "row 5")
-		(uuid "080f0e93-8988-487f-bd6e-61b1ca70841f")
-	)
-	(segment
-		(start 91.46 120.89)
-		(end 91.44 120.87)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "row 5")
-		(uuid "bbcf55f2-d59c-4dc2-ba5a-676bbec261be")
-	)
-	(segment
-		(start 93.8 123.23)
-		(end 91.46 120.89)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "row 5")
-		(uuid "e7db555a-a41a-4246-be37-a554c3054dc5")
+		(uuid "ef53241d-54c2-4b8d-88e2-2f7f4ef2a69a")
 	)
 	(via
-		(at 91.46 120.89)
+		(at 93.57 124.67)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net "row 5")
-		(uuid "17740253-9566-4a59-9538-42f3e7ec193a")
+		(uuid "b687267a-96d0-4d8f-a381-77c60367ec46")
 	)
 	(segment
 		(start 91.25 182.25)
@@ -16159,12 +16405,12 @@
 		(uuid "cd567f7e-b66a-417b-91cf-caa35d7bb12d")
 	)
 	(segment
-		(start 91.46 118.65)
-		(end 91.46 120.85)
+		(start 90.85 121.95)
+		(end 88.92 121.95)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "row 5")
-		(uuid "d1b8ca95-522c-4d8c-8755-75de533a49b3")
+		(uuid "ce04837d-1da1-4421-9e79-b55c224e3ee0")
 	)
 	(segment
 		(start 52.75 182.25)
@@ -16175,20 +16421,20 @@
 		(uuid "e3d15a5f-f165-4b3f-a1d8-143980a4eea2")
 	)
 	(segment
+		(start 93.57 124.67)
+		(end 90.85 121.95)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "row 5")
+		(uuid "ee330f49-fdf0-4552-b4e0-b7ebaccb4076")
+	)
+	(segment
 		(start 36.75 182.25)
 		(end 43.25 182.25)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "row 5")
 		(uuid "f12f53b6-0ccf-4725-aa83-fd95c655efd8")
-	)
-	(segment
-		(start 91.46 120.85)
-		(end 91.44 120.87)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "row 5")
-		(uuid "fa717ebd-0761-4f00-ac7f-241ff0d30098")
 	)
 	(segment
 		(start 57.95 128.45)
@@ -16904,11 +17150,11 @@
 	)
 	(segment
 		(start 95.18 164.68)
-		(end 95.18 124.21)
+		(end 95.18 122.37)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "row 4")
-		(uuid "564004c8-0eb2-415a-998a-aa488527477c")
+		(uuid "327166bb-632f-4597-b5fa-879888273410")
 	)
 	(segment
 		(start 100.75 170.25)
@@ -16916,10 +17162,18 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "row 4")
-		(uuid "e2679e75-3309-456d-ba74-9528d2e720f2")
+		(uuid "df32f8ec-8852-4d1a-b9bc-9dc585868365")
+	)
+	(segment
+		(start 95.18 122.37)
+		(end 92.755 119.945)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "row 4")
+		(uuid "e622a7ca-5d1a-453b-8f83-8366ce6a41c5")
 	)
 	(via
-		(at 95.18 124.21)
+		(at 92.755 119.945)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -16941,22 +17195,6 @@
 		(layer "B.Cu")
 		(net "row 4")
 		(uuid "1b55d464-b7ae-4a71-b963-1fceaf15b538")
-	)
-	(segment
-		(start 95.18 123.13)
-		(end 95.18 124.21)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "row 4")
-		(uuid "65c756b6-80a3-442b-a50e-a0224f69d9db")
-	)
-	(segment
-		(start 94 121.95)
-		(end 95.18 123.13)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "row 4")
-		(uuid "73c43c2e-09d0-4d1c-bc7d-0996b700bafc")
 	)
 	(segment
 		(start 43.25 170.25)
@@ -16997,6 +17235,14 @@
 		(layer "B.Cu")
 		(net "row 4")
 		(uuid "acb0e82c-c89e-482b-8941-3d62a5caaa8b")
+	)
+	(segment
+		(start 91.46 118.65)
+		(end 92.755 119.945)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "row 4")
+		(uuid "c70b5340-977a-4994-b124-b9a50d1ba655")
 	)
 	(segment
 		(start 36.75 170.25)
@@ -17071,20 +17317,28 @@
 		(uuid "e49277fb-0e6b-4d9e-bd12-db687d9ed524")
 	)
 	(segment
+		(start 84.75 112.25)
+		(end 84.75 112.8)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "row 0")
+		(uuid "24117147-abef-4d2d-896f-0b274a519839")
+	)
+	(segment
+		(start 85.24 112.31)
+		(end 91.19 112.31)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "row 0")
+		(uuid "2c80bc8e-fec6-4c90-bf48-4e9e72bb6f90")
+	)
+	(segment
 		(start 104.16 121.95)
 		(end 104.16 115.66)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "row 0")
 		(uuid "472bb848-342a-4b7a-b853-846a2e3359cb")
-	)
-	(segment
-		(start 86.22 114.27)
-		(end 89.23 114.27)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "row 0")
-		(uuid "5df7cffb-3458-4590-99ff-be25681ccc67")
 	)
 	(segment
 		(start 116.75 112.25)
@@ -17095,28 +17349,12 @@
 		(uuid "658b73cb-50f6-455a-9a89-6630b1be1c12")
 	)
 	(segment
-		(start 84.75 112.8)
-		(end 86.22 114.27)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "row 0")
-		(uuid "66703a22-adec-418b-a21d-0738301e533d")
-	)
-	(segment
-		(start 84.75 112.25)
-		(end 84.75 112.8)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "row 0")
-		(uuid "6ceb50ee-cec4-4b9b-b38a-470aa1500fb1")
-	)
-	(segment
-		(start 89.23 114.27)
+		(start 91.19 112.31)
 		(end 91.25 112.25)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "row 0")
-		(uuid "6cecc9e6-c2e5-41b8-930b-d5db5aee0c65")
+		(uuid "6bd8556e-15ee-4b42-8188-7ec61fd9fc9f")
 	)
 	(segment
 		(start 36.75 112.25)
@@ -17157,6 +17395,14 @@
 		(layer "B.Cu")
 		(net "row 0")
 		(uuid "ec646f71-86ef-46e1-9c9e-004dc0574600")
+	)
+	(segment
+		(start 84.75 112.8)
+		(end 85.24 112.31)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "row 0")
+		(uuid "f150df18-884d-4da8-a20c-a661eed6f5cb")
 	)
 	(segment
 		(start 91.25 107.75)
@@ -17215,14 +17461,6 @@
 		(uuid "34b867c7-be4b-4ee5-95e8-c8334cb182ba")
 	)
 	(segment
-		(start 91.25 107.75)
-		(end 91.25 108.17)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "col 2")
-		(uuid "378e6d57-c98b-402a-853a-174b9bcb4b90")
-	)
-	(segment
 		(start 92.55 176.45)
 		(end 92.55 167.05)
 		(width 0.2)
@@ -17271,6 +17509,14 @@
 		(uuid "714df235-3824-4118-ba3d-1472dc01ef5e")
 	)
 	(segment
+		(start 91.25 107.75)
+		(end 84.75 114.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "col 2")
+		(uuid "8bcf8368-9ce3-4c5d-83dc-b452f0384830")
+	)
+	(segment
 		(start 92.55 164.45)
 		(end 92.55 155.05)
 		(width 0.2)
@@ -17287,12 +17533,12 @@
 		(uuid "9d2bcbd3-b8ad-448f-8066-9008890d3ac2")
 	)
 	(segment
-		(start 91.25 108.17)
-		(end 86.05 113.37)
+		(start 84.75 114.25)
+		(end 84.75 129.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "col 2")
-		(uuid "a4fee9ae-f669-4ce3-b39d-d3ac30efe8c0")
+		(uuid "a8699b5a-060b-4f35-ae92-398a9e8814a7")
 	)
 	(segment
 		(start 91.25 165.75)
@@ -17317,22 +17563,6 @@
 		(layer "F.Cu")
 		(net "col 2")
 		(uuid "b36ef904-0eae-458f-9297-78271529baf2")
-	)
-	(segment
-		(start 86.05 113.37)
-		(end 86.05 128.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "col 2")
-		(uuid "b4bf848c-dfaa-4320-9184-fd4846c31e05")
-	)
-	(segment
-		(start 86.05 128.45)
-		(end 84.75 129.75)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "col 2")
-		(uuid "bd0d01d8-6308-45e1-9cb9-dcdac4c2907c")
 	)
 	(segment
 		(start 92.55 131.05)
@@ -17527,14 +17757,6 @@
 		(uuid "dbf46836-4a5c-49ef-b96d-b3aa52dffcc9")
 	)
 	(segment
-		(start 88.58 112.26)
-		(end 92.3 115.98)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "col 3")
-		(uuid "05883e50-9593-4512-a33a-ba0cdeaceb22")
-	)
-	(segment
 		(start 76.55 176.45)
 		(end 75.25 177.75)
 		(width 0.2)
@@ -17615,6 +17837,14 @@
 		(uuid "5052a1ac-9832-441d-836f-93dc2480fb4d")
 	)
 	(segment
+		(start 93.16 118.29)
+		(end 88.82 113.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "col 3")
+		(uuid "5c41562f-1207-403a-873e-ca830d18963d")
+	)
+	(segment
 		(start 68.75 107.75)
 		(end 75.25 107.75)
 		(width 0.2)
@@ -17655,6 +17885,14 @@
 		(uuid "946ba66a-45da-4aa4-a95e-8f6360a6bcc5")
 	)
 	(segment
+		(start 108.38 118.29)
+		(end 93.16 118.29)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "col 3")
+		(uuid "ab22017b-c854-4e47-9ef9-b4b7aba5df9c")
+	)
+	(segment
 		(start 75.25 153.75)
 		(end 68.75 153.75)
 		(width 0.2)
@@ -17677,6 +17915,14 @@
 		(layer "F.Cu")
 		(net "col 3")
 		(uuid "c79d633f-4e7a-4ba6-8270-5d95af46b041")
+	)
+	(segment
+		(start 88.82 113.95)
+		(end 87.23 113.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "col 3")
+		(uuid "c8403dab-0089-421c-a013-26f6963458e6")
 	)
 	(segment
 		(start 76.85 131.35)
@@ -17703,22 +17949,6 @@
 		(uuid "e5340817-4b2a-4f8d-a6b4-2bc6cd52fadc")
 	)
 	(segment
-		(start 92.3 115.98)
-		(end 106.07 115.98)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "col 3")
-		(uuid "e60f58f5-f288-4023-a6ea-b594d1c6ed0e")
-	)
-	(segment
-		(start 106.07 115.98)
-		(end 108.38 118.29)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "col 3")
-		(uuid "efafa235-b65f-4576-9bef-1509ba86d095")
-	)
-	(segment
 		(start 69.14 129.75)
 		(end 69.16 129.73)
 		(width 0.2)
@@ -17743,7 +17973,7 @@
 		(uuid "93a32feb-a2eb-4555-a9e9-5ee080f5c241")
 	)
 	(via
-		(at 88.58 112.26)
+		(at 87.23 113.95)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -17751,20 +17981,12 @@
 		(uuid "db52006a-3566-4cb0-b9e8-5b728b13acef")
 	)
 	(segment
-		(start 86.09 109.77)
-		(end 88.58 112.26)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "col 3")
-		(uuid "5d3c874d-a180-41f2-b07b-624c76fe8ed3")
-	)
-	(segment
 		(start 75.25 107.75)
-		(end 77.27 109.77)
+		(end 81.45 113.95)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "col 3")
-		(uuid "6d3e9833-2cd1-43ba-823f-697c0123bf05")
+		(uuid "6bc7e046-579b-46c5-98a8-4c8cc42a4591")
 	)
 	(segment
 		(start 112.04 121.95)
@@ -17783,12 +18005,12 @@
 		(uuid "dabf175f-075e-4c52-82d8-8a19e7fa07e4")
 	)
 	(segment
-		(start 77.27 109.77)
-		(end 86.09 109.77)
+		(start 81.45 113.95)
+		(end 87.23 113.95)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "col 3")
-		(uuid "e87375de-4d45-4eb6-8edd-725e54a83e36")
+		(uuid "f9644fc0-c22c-422d-a4ca-d8ac0a26570c")
 	)
 	(segment
 		(start 123.25 129.75)
@@ -18063,23 +18285,23 @@
 		(uuid "d125de7a-753c-4bd1-a471-4fbce5fe58b4")
 	)
 	(segment
-		(start 69.16 96.55)
-		(end 79.93 107.32)
+		(start 75.18 102.57)
+		(end 82.35 102.57)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "RESET")
-		(uuid "4c39abdf-4f25-4dc7-b62f-3445ea6c9a04")
+		(uuid "1cb84e00-4176-4ee5-a24d-fa5f12f16512")
 	)
 	(segment
-		(start 79.93 107.32)
-		(end 81.28 107.32)
+		(start 69.16 96.55)
+		(end 75.18 102.57)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "RESET")
-		(uuid "6a0a6665-3cae-4c66-b66d-abbf2ad728b8")
+		(uuid "44d53293-43a4-42ee-9157-2c49e5f2cf5d")
 	)
 	(via
-		(at 81.28 107.32)
+		(at 82.35 102.57)
 		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -18087,28 +18309,20 @@
 		(uuid "75ecf9b3-4aa3-445a-9773-0bc9671dc786")
 	)
 	(segment
-		(start 86.471522 104.19)
-		(end 83.341522 107.32)
+		(start 87.3 102.57)
+		(end 82.35 102.57)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "RESET")
-		(uuid "74e889bd-c2a6-469a-b325-dfe3246b2928")
-	)
-	(segment
-		(start 83.341522 107.32)
-		(end 81.28 107.32)
-		(width 0.2)
-		(layer "B.Cu")
-		(net "RESET")
-		(uuid "acd15fd5-6ace-43b7-a448-90777d48b454")
+		(uuid "021fe664-0a9e-4a82-98f6-c568ab5b5c07")
 	)
 	(segment
 		(start 88.92 104.19)
-		(end 86.471522 104.19)
+		(end 87.3 102.57)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "RESET")
-		(uuid "cc303d00-0508-463a-8c8d-a551ff02a515")
+		(uuid "530b6fed-0368-4638-b217-a17eca9521be")
 	)
 	(segment
 		(start 73.82 98.04)
@@ -18269,20 +18483,6 @@
 		(layer "B.Cu")
 		(net "unconnected-(J1-GND-Pad28)")
 		(uuid "f13f2985-3692-4dd6-80ac-c5cf62a54b51")
-	)
-	(group ""
-		(uuid "f6bad6fc-7d7c-4869-a5af-d7582f0dd5e1")
-		(members "56e79bd1-fc13-4cdd-96c3-0538476daa18" "ae8352fa-2ba6-48b4-a635-b2bff6cdc1ba"
-			"bb052473-93c9-4a03-8b5d-4e3d7db1078a"
-		)
-	)
-	(group ""
-		(uuid "c4982a3b-e29c-4d58-b77c-abf8c19e2944")
-		(members "0915bf51-908e-42c2-8a66-8795a0137be9" "26984194-8725-4f1f-b886-18aec0ff3375"
-			"2eb9d55b-d227-41f0-b175-ac215ec7c35e" "7c431f37-2178-47fd-a07c-4ede6046ffe2"
-			"96301be7-937b-4222-9497-51499aa65403" "9c1a2f05-7869-4587-a3a7-d6ab007e01be"
-			"d6227bfc-b76f-4ecf-a6ef-317989d64e42"
-		)
 	)
 	(embedded_fonts no)
 	(embedded_files
