@@ -78,7 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|100350000|102540000|2eb9d55b-d227-41f0-b175-ac215ec7c35e|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|90000000|101990000|2eb9d55b-d227-41f0-b175-ac215ec7c35e|00000000-0000-0000-0000-000000000000",
           "yeah thats fine"
         ]
       ],
