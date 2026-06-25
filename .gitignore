@@ -4,6 +4,7 @@
 sym-lib-table-bak
 fp-lib-table-bak
 *.lck
+*.zip
 
 #OS/ editor
 .DS_Store
