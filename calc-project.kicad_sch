@@ -1389,6 +1389,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers
 				(hide yes)
@@ -1845,6 +1944,18 @@
 		(uuid "06ce9044-76bb-4767-a4ab-fbe30cdf84ce")
 	)
 	(rectangle
+		(start 30.48 100.076)
+		(end 69.342 131.064)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b9ece7df-7378-411d-a72f-2cea93b85b4f")
+	)
+	(rectangle
 		(start 159.512 87.122)
 		(end 237.49 164.084)
 		(stroke
@@ -1875,6 +1986,16 @@
 			)
 		)
 		(uuid "5d0a9c33-2fcc-4e5b-be38-eb272f4471bd")
+	)
+	(text "mounting holes\n"
+		(exclude_from_sim no)
+		(at 49.022 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "993a6c6b-c94b-41eb-906e-e5d97deb9884")
 	)
 	(junction
 		(at 214.63 133.35)
@@ -2269,6 +2390,10 @@
 		(uuid "2fa1f1f7-9fc4-4fbe-bf10-2c404f7e27a6")
 	)
 	(no_connect
+		(at 240.03 24.13)
+		(uuid "313548f0-5610-4fcb-80ec-037ca15c66fb")
+	)
+	(no_connect
 		(at 240.03 54.61)
 		(uuid "3db2e126-f348-4dbe-a87e-82c155e9c9db")
 	)
@@ -2285,8 +2410,16 @@
 		(uuid "6e53851d-8933-4380-bd3a-fe3d2ff77ce8")
 	)
 	(no_connect
+		(at 240.03 52.07)
+		(uuid "6f93dd86-b4c2-4fb3-82ff-b3e0b061afb0")
+	)
+	(no_connect
 		(at 240.03 41.91)
 		(uuid "7362af9e-394e-492e-9788-dd6bae03d824")
+	)
+	(no_connect
+		(at 162.56 39.37)
+		(uuid "7449290b-c752-4fcf-934e-ff36537fa374")
 	)
 	(no_connect
 		(at 165.1 29.21)
@@ -2297,8 +2430,16 @@
 		(uuid "7d199ef1-4aec-4e2e-82a0-b4c39ceb1961")
 	)
 	(no_connect
+		(at 157.48 26.67)
+		(uuid "8a67c7fe-310d-4151-b720-85cf1dba4095")
+	)
+	(no_connect
 		(at 34.29 60.96)
 		(uuid "95a0a9a8-4d3b-41bc-92ea-8089de654c2e")
+	)
+	(no_connect
+		(at 240.03 26.67)
+		(uuid "a2ad24fc-144a-40d2-8869-8872b0c241e3")
 	)
 	(no_connect
 		(at 165.1 21.59)
@@ -2313,8 +2454,12 @@
 		(uuid "e817ec4a-0eaa-490d-956c-758f9b79bf77")
 	)
 	(no_connect
-		(at 165.1 34.29)
-		(uuid "ee9f1981-f57b-48d5-a01f-7445dc4063a4")
+		(at 160.02 64.77)
+		(uuid "ec43e2de-dcd5-4c64-8123-0de6a090a834")
+	)
+	(no_connect
+		(at 160.02 52.07)
+		(uuid "faf397d2-dadb-4058-9537-6b7cd2ed6f9e")
 	)
 	(wire
 		(pts
@@ -2428,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 39.37) (xy 160.02 39.37)
+			(xy 160.02 36.83) (xy 165.1 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2908,7 +3053,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 36.83) (xy 160.02 36.83)
+			(xy 160.02 34.29) (xy 165.1 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2935,6 +3080,16 @@
 			(type default)
 		)
 		(uuid "91a4011f-9070-46b9-bcc4-79a434bdc210")
+	)
+	(wire
+		(pts
+			(xy 162.56 39.37) (xy 165.1 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953a61da-c568-448e-bbe6-d2f1f7f77d71")
 	)
 	(wire
 		(pts
@@ -3015,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "a1981ebd-e9c7-4d22-9214-0b26ef29dafd")
-	)
-	(wire
-		(pts
-			(xy 242.57 24.13) (xy 240.03 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6af3e0b-71d7-480a-8183-d95c978b7940")
 	)
 	(wire
 		(pts
@@ -3238,16 +3383,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 26.67) (xy 256.54 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ea094a-72f0-44e8-b640-59e898e5bec5")
-	)
-	(wire
-		(pts
 			(xy 34.29 48.26) (xy 48.26 48.26)
 		)
 		(stroke
@@ -3335,30 +3470,6 @@
 			(type default)
 		)
 		(uuid "fd77c654-8e10-4b98-b557-b0f859b6c3c1")
-	)
-	(global_label "VSYS(3-5V)"
-		(shape input)
-		(at 242.57 24.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0249d630-269b-41a0-b078-41c99da7a8d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.9248 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "row 1"
 		(shape input)
@@ -3722,7 +3833,7 @@
 	)
 	(global_label "row 5"
 		(shape input)
-		(at 160.02 36.83 180)
+		(at 160.02 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3732,7 +3843,7 @@
 		)
 		(uuid "6a46c005-d428-44ea-a70a-6ba55a5e7e1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.592 36.83 0)
+			(at 151.592 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,7 +4241,7 @@
 	)
 	(global_label "row 4"
 		(shape input)
-		(at 160.02 39.37 180)
+		(at 160.02 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4140,7 +4251,7 @@
 		)
 		(uuid "f1d984c3-44ef-4cba-8c5d-69040c4a9627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.592 39.37 0)
+			(at 151.592 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4225,85 +4336,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 240.03 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01bd460c-89c2-4583-95f3-5e23660aeacc")
-		(property "Reference" "#PWR014"
-			(at 246.38 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 243.84 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75261391-b2ac-45de-9050-e40580b78915")
-		)
-		(instances
-			(project "calc-project"
-				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 196.85 121.92 0)
 		(mirror y)
@@ -4335,7 +4367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 196.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +4447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 176.53 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 207.01 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4575,7 +4607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 166.37 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4655,7 +4687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 186.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4852,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 166.37 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4932,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 166.37 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5045,6 +5077,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 173.99 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "2b4be986-b46f-4724-ad8e-95696275dbdd")
 		)
@@ -5146,7 +5189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 186.69 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 196.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5275,85 +5318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 26.67 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37111006-a74b-4577-b5cb-4cf98482d9dc")
-		(property "Reference" "#PWR018"
-			(at 151.13 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 26.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb50add0-3abd-4c0a-a328-8d0dc3a74e9d")
-		)
-		(instances
-			(project "calc-project"
-				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 217.17 139.7 0)
 		(mirror y)
@@ -5385,7 +5349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 217.17 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5465,7 +5429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 186.69 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5545,7 +5509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 217.17 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5649,6 +5613,17 @@
 			)
 		)
 		(property "Description" "1x20 2.54mm female socket - Pico right header (pins 21-40)"
+			(at 231.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
 			(at 231.14 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5839,7 +5814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 176.53 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5997,7 +5972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 166.37 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -6125,41 +6100,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 256.54 26.67 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 58.42 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "79b0122c-9abc-48fd-a26f-4f5708db3a3d")
-		(property "Reference" "#PWR02"
-			(at 262.89 26.67 0)
-			(hide yes)
+		(uuid "6f157b3f-1fa7-496d-a367-973799ed27dd")
+		(property "Reference" "H2"
+			(at 60.96 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 260.35 26.6699 90)
+		(property "Value" "MountingHole"
+			(at 60.96 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 26.67 0)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6170,7 +6145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 26.67 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6180,8 +6155,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 26.67 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6190,14 +6165,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "415267f3-3c6f-4a15-8e99-5bce01d5cd07")
 		)
 		(instances
 			(project "calc-project"
 				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
-					(reference "#PWR02")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6235,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 186.69 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6284,85 +6256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 64.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "857df60f-c405-4e95-ab52-293fc11e6bf5")
-		(property "Reference" "#PWR016"
-			(at 153.67 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 64.7699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b31b9da8-6157-483d-858a-601f9bbeb976")
-		)
-		(instances
-			(project "calc-project"
-				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 207.01 139.7 0)
 		(mirror y)
@@ -6394,7 +6287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 207.01 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6474,7 +6367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 166.37 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6554,7 +6447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 176.53 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6634,7 +6527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 217.17 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6683,41 +6576,41 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 160.02 52.07 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93a0e22d-3783-4853-bf92-da1f00305e66")
-		(property "Reference" "#PWR017"
-			(at 153.67 52.07 0)
-			(hide yes)
+		(uuid "96a63d05-97b5-4307-8df5-567b0ac3d1bc")
+		(property "Reference" "H3"
+			(at 40.64 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 52.0699 90)
+		(property "Value" "MountingHole"
+			(at 40.64 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 160.02 52.07 0)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 38.1 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6728,7 +6621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 52.07 0)
+			(at 38.1 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,8 +6631,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 52.07 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,14 +6641,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "7b96cbe0-b94e-4479-977a-1a8c76917d09")
 		)
 		(instances
 			(project "calc-project"
 				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
-					(reference "#PWR017")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 196.85 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6952,7 +6842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 176.53 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7032,7 +6922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7112,7 +7002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 196.85 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7192,7 +7082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 207.01 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -7272,7 +7162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 186.69 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7352,7 +7242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 207.01 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7401,6 +7291,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 58.42 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd19fe87-2711-4f72-885c-7507f1cf541d")
+		(property "Reference" "H4"
+			(at 60.96 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 60.96 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 58.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 58.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "calc-project"
+				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 186.69 121.92 0)
 		(mirror y)
@@ -7432,7 +7398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 186.69 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7512,7 +7478,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 176.53 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7592,7 +7558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 217.17 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +7638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 217.17 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7752,7 +7718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 166.37 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7801,6 +7767,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daeeaea9-04eb-4891-a943-b1cb9f39e14d")
+		(property "Reference" "H1"
+			(at 40.64 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.64 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "calc-project"
+				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 38.1 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd69900-e5d0-4a49-9c9f-844a420dc715")
+		(property "Reference" "H5"
+			(at 40.64 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 40.64 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 38.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 38.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "calc-project"
+				(path "/ce2387f6-4e20-4bb3-a78e-7b86d34e4f64"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 207.01 130.81 0)
 		(mirror y)
@@ -7832,7 +7950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 207.01 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -7912,7 +8030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 176.53 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7992,7 +8110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 207.01 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8072,7 +8190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 196.85 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -8152,7 +8270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:SW_TL3315NF160Q"
+		(property "Footprint" "Library:SW_PUSH_6mm_centered"
 			(at 217.17 148.59 0)
 			(hide yes)
 			(show_name no)
