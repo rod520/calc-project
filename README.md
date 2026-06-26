@@ -6,7 +6,7 @@ The pcb consists of two separated sections, the button matrix and the display co
 
 ## software:
 todo
-## hardware:
+## mechanical:
 todo
 
 
@@ -15,8 +15,10 @@ I wanted to make a clone of the numworks calculator, but I realized that wasnt f
 
 ## materials:
 1. 36 6mm through hole tactile buttons
-2. 2 1x20 female/socket connectors, **2.54 mm**, make sure they are **pin 1 left/style 1**
-3. MSP3217 or MSP3218, both work, but you will not be able to use the MSP3218's touchscreen
-4. some solder
-5. an rpi pico, with headers facing down, pimoroni lipo pico in case you want to use a rechargeable battery
-6. a 2-pole JST PH battery 
+2. 2 1x20 female/socket connectors, **2.54 mm**, I'm planning on using Adafruit's short socket headers
+3. 2 matching 1x20 male/pin connectors, **2.54 mm**, I'm planning on using Adafruit's short pin headers, or you can stick with the pico's default
+4. MSP3217 or MSP3218, both work, but you will not be able to use the MSP3218's touchscreen
+5. soldering materials
+6. an rpi pico, with headers facing down, (OPTIONAL) pimoroni lipo pico in case you want to use a rechargeable battery
+7. (OPTIONAL) a JST-PH battery for the pimoroni lipo pico
+8. a 2-pole JST PH battery 
