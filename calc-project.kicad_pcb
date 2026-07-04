@@ -17274,6 +17274,14 @@
 		(uuid "c5538a27-464b-470a-b94b-69746e58bd51")
 	)
 	(segment
+		(start 53.25 112.25)
+		(end 58.75 112.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "row 0")
+		(uuid "13f1a5e8-75fa-43ff-99aa-f2344ab5e109")
+	)
+	(segment
 		(start 65.25 112.25)
 		(end 70.75 112.25)
 		(width 0.2)
