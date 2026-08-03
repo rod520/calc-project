@@ -3,12 +3,9 @@
 
 ## design:
 The pcb consists of two separated sections, the button matrix and the display connection, connected to an rpi with headers through 2 through hole pin connectors. Buttons are 6mm through hole, display is an MSP321**7** (no touch screen), connector is 1x20 2.54mm. 
-
+**IMPORTANT:** the male header pins should be pointed down for access to bootsel, and the pico's usb port should be pointed outside, to the right if viewed from above.
 ## software:
-todo
-## mechanical:
-todo
-
+see [zig-calc](https://github.com/rod520/zig-calc) for software
 
 ## WHY?
 I wanted to make a clone of the numworks calculator, but I realized that wasnt feasible and cheap, so I eventually landed on making a pi-hat like extension for an rpi pico. The pico clone Pimoroni LiPo Pico can connect to  an optional Lithium Ion Battery, so this calculator will (eventually) have nearly every feature of the numworks, albeit with a vertical display, thicker case, and cheap clicky buttons. 
@@ -21,5 +18,4 @@ I wanted to make a clone of the numworks calculator, but I realized that wasnt f
 5. soldering materials
 6. an rpi pico, with headers facing down, (OPTIONAL) pimoroni lipo pico in case you want to use a rechargeable battery
 7. (OPTIONAL) a JST-PH battery for the pimoroni lipo pico
-## software:
-see [zig-calc](https://github.com/rod520/zig-calc) for software
+<img width="1498" height="1996" alt="image" src="https://github.com/user-attachments/assets/4190e80a-8c70-449d-8008-b05db41a2d3b" />
