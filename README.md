@@ -21,4 +21,5 @@ I wanted to make a clone of the numworks calculator, but I realized that wasnt f
 5. soldering materials
 6. an rpi pico, with headers facing down, (OPTIONAL) pimoroni lipo pico in case you want to use a rechargeable battery
 7. (OPTIONAL) a JST-PH battery for the pimoroni lipo pico
-8. a 2-pole JST PH battery 
+## software:
+see [zig-calc](https://github.com/rod520/zig-calc) for software
